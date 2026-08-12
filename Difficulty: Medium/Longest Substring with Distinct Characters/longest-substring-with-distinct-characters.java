@@ -1,0 +1,24 @@
+class Solution {
+    int longestUniqueSubstr(String s) {
+
+        int[] freq = new int[256];
+
+        int left = 0;
+        int maxLength = 0;
+
+        for (int right = 0; right < s.length(); right++) {
+
+            freq[s.charAt(right)]++;
+
+            // Duplicate found
+            while (freq[s.charAt(right)] > 1) {
+                freq[s.charAt(left)]--;
+                left++;
+            }
+
+            maxLength = Math.max(maxLength, right - left + 1);
+        }
+
+        return maxLength;
+    }
+}
