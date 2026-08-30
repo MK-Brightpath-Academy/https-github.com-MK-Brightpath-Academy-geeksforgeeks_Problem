@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/intersection-point-in-y-shaped-linked-lists--170645/1?page=11&category=Arrays%2CStrings%2CJava%2CLinked%20List&company=Amazon%2CMicrosoft%2CGoogle%2CFlipkart&sortBy=submissions">Intersection Point in Y Shaped Linked Lists</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">You are given the head pointers of two singly linked lists, <strong>head1</strong> and <strong>head2</strong>. Find and return the exact node where the two linked lists merge into one.</span></p>
+<p><span style="font-size: 18px;">If the two lists never merge, return NULL.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>head1: 3-&gt;6-&gt;9-&gt;15-&gt;30, head2: 10-&gt;15-&gt;30
+<strong>Output: </strong>15
+<strong>Explanation:
+</strong></span><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/713544/Web/Other/blobid1_1723204650.png" width="443" height="265"> </pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>head1: 4-&gt;1-&gt;8-&gt;4-&gt;5, head2: 5-&gt;6-&gt;1-&gt;8-&gt;4-&gt;5
+<strong>Output: </strong>8
+<strong>Explanation: </strong></span>
+<span style="font-size: 18px;"><strong><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/713544/Web/Other/blobid2_1723204735.png" width="428" height="322"> &nbsp;</strong></span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong></span><span style="font-size: 18px;">1 ≤ n, m ≤ 10<sup>5</sup>, where n and m denote the number of nodes in the first and second linked lists respectively.<br></span><span style="font-size: 18px;">0 ≤ node-&gt;data ≤ 10</span><sup>5</sup></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>VMWare</code>&nbsp;<code>Flipkart</code>&nbsp;<code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Snapdeal</code>&nbsp;<code>D-E-Shaw</code>&nbsp;<code>FactSet</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<code>Visa</code>&nbsp;<code>Goldman Sachs</code>&nbsp;<code>MAQ Software</code>&nbsp;<code>Adobe</code>&nbsp;<code>Qualcomm</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Linked List</code>&nbsp;
