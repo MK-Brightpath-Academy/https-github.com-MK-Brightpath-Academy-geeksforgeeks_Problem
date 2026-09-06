@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/generate-binary-string3642/1?page=13&category=Arrays%2CStrings%2CJava%2CLinked%20List&company=Amazon%2CMicrosoft%2CGoogle%2CFlipkart&sortBy=submissions">Generate Binary Strings</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a string <strong>s</strong> containing characters '<strong>0</strong>', '<strong>1</strong>', and '<strong>?</strong>'. </span><span style="font-size: 18px;">Generate all distinct binary strings that can be formed by replacing each '?' with either '0' or '1'. </span><span style="font-size: 18px;">Return the strings in lexicographically increasing order.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><span style="font-size: 18px;"><strong>Input: </strong>s = "1??0?101"<strong>
+Output: </strong>["10000101", "10001101", "10100101", "10101101", "11000101", "11001101", "11100101", "11101101"]<strong>
+Explanation: </strong>There are 3 wildcard characters, so 2<sup>3</sup> = 8 binary strings can be formed.</span></span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>s = "10?"<strong>
+Output: </strong>["100", "101"]<strong>
+Explanation: </strong>There is 1 wildcard character, so 2 binary strings can be formed.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong></span><span style="font-size: 18px;">1 ≤ |s| ≤ 30<br></span><span style="font-size: 18px;">0 ≤ k ≤ 15, where k is the number of '?' characters</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Google</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;
